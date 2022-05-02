@@ -1,0 +1,11 @@
+type Operatore {
+    id: Int!
+    nomeOperatore: String!
+    cognomeOperatore: String!
+    luogoNascita: String
+    citta: String
+    inServizio: Boolean
+}
+type Query {
+    operatoreById(id:Int): Operatore
+}
