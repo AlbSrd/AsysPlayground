@@ -17,4 +17,7 @@ public class OperatoreQueryResolver implements GraphQLQueryResolver {
     public Optional<Operatore> getOperatoreById(String id) {
         return repository.findById(Long.valueOf(id));
     }
+
+    ;
+
 }
