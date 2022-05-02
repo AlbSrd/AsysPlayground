@@ -1,5 +1,5 @@
 type Operatore {
-    id: Int!
+    idOperatore: Int!
     nomeOperatore: String!
     cognomeOperatore: String!
     luogoNascita: String

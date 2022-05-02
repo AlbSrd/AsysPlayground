@@ -7,7 +7,8 @@ import javax.persistence.*;
 public class Operatore {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idOperatore;
+    private String id;
+    private int idOperatore;
     @Column(nullable = false)
     private String nomeOperatore;
     @Column(nullable = false)
@@ -59,11 +60,11 @@ public class Operatore {
     public Operatore() {
     }
 
-    public Long getIdOperatore() {
+    public int getIdOperatore() {
         return idOperatore;
     }
 
-    public void setIdOperatore(Long id) {
+    public void setIdOperatore(int id) {
         this.idOperatore = id;
     }
 
