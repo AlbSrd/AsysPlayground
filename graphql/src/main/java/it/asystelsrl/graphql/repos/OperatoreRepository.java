@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 @SuppressWarnings("unused")
-public interface OperatoreRepository extends CrudRepository<Operatore, Integer> {
+public interface OperatoreRepository extends CrudRepository<Operatore, Long> {
 }
